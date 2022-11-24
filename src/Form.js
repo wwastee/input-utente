@@ -7,7 +7,7 @@ function Form() {
   
   const nome = useRef("ciao");
   function stampanome(event) {
-    event.preventDefault();
+    event.preventDefault();                           
     modificaStato(nome.current.value);
     console.log(nome.current.value);
   }
